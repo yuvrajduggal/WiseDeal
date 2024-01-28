@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+header{
+	background: url(https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80) no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.thankyou-text{
+	position: absolute;
+	width: 600px;
+	height: 300px
+	margin: 20% 30%;
+	text-align: center;
+}
+.thankyou-text h1{
+	text-align: center;
+	color: #e8c63c;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-family: fantasy;
+}
+.thankyou-text h2{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
